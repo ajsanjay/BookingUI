@@ -12,10 +12,12 @@ struct DashBoard: View {
     @Binding var backToLogIn: Bool
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Background()
+        }
     }
 }
 
 #Preview {
-    DashBoard(backToLogIn: .constant(false))
+    DashBoard(backToLogIn: .constant(true))
 }

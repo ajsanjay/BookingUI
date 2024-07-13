@@ -21,5 +21,4 @@ struct Constants {
     static let Option2: OptionModel = OptionModel(optionName: "Train Booking", optionInfo: "Book Train tickets using booking UI")
     static let Option3: OptionModel = OptionModel(optionName: "Flight Booking", optionInfo: "Book Flight tickets using booking UI")
     static let AvailableOptions: [OptionModel] = []
-    
 }

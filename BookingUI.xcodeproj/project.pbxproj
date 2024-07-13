@@ -12,6 +12,7 @@
 		8D07CA0E2C420ACB00F5C81D /* HeadingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA0D2C420ACB00F5C81D /* HeadingStyle.swift */; };
 		8D07CA102C420EBE00F5C81D /* ButtonTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA0F2C420EBE00F5C81D /* ButtonTitle.swift */; };
 		8D07CA122C42113400F5C81D /* DashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA112C42113400F5C81D /* DashBoard.swift */; };
+		8D07CA152C424CCD00F5C81D /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA142C424CCD00F5C81D /* TicketView.swift */; };
 		8DB35BE12C3660BA006B399B /* BookingUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB35BE02C3660BA006B399B /* BookingUIApp.swift */; };
 		8DB35BE32C3660BA006B399B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB35BE22C3660BA006B399B /* Login.swift */; };
 		8DB35BE52C3660BB006B399B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB35BE42C3660BB006B399B /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		8D07CA0D2C420ACB00F5C81D /* HeadingStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingStyle.swift; sourceTree = "<group>"; };
 		8D07CA0F2C420EBE00F5C81D /* ButtonTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitle.swift; sourceTree = "<group>"; };
 		8D07CA112C42113400F5C81D /* DashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoard.swift; sourceTree = "<group>"; };
+		8D07CA142C424CCD00F5C81D /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		8DB35BDD2C3660BA006B399B /* BookingUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB35BE02C3660BA006B399B /* BookingUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingUIApp.swift; sourceTree = "<group>"; };
 		8DB35BE22C3660BA006B399B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -72,8 +74,17 @@
 			children = (
 				8D07CA0D2C420ACB00F5C81D /* HeadingStyle.swift */,
 				8D07CA0F2C420EBE00F5C81D /* ButtonTitle.swift */,
+				8D07CA142C424CCD00F5C81D /* TicketView.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		8D07CA132C42127700F5C81D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				8D07CA112C42113400F5C81D /* DashBoard.swift */,
+			);
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 		8DB35BD42C3660B9006B399B = {
@@ -101,7 +112,7 @@
 				8DB35BE02C3660BA006B399B /* BookingUIApp.swift */,
 				8DB35BEE2C366378006B399B /* SplashScreen.swift */,
 				8DB35BE22C3660BA006B399B /* Login.swift */,
-				8D07CA112C42113400F5C81D /* DashBoard.swift */,
+				8D07CA132C42127700F5C81D /* Dashboard */,
 				8D07CA012C3D0D0300F5C81D /* DashboardCells */,
 				8DB35BE42C3660BB006B399B /* Assets.xcassets */,
 				8DB35BE62C3660BB006B399B /* Preview Content */,
@@ -193,6 +204,7 @@
 				8DB35BEF2C366378006B399B /* SplashScreen.swift in Sources */,
 				8DB35BE32C3660BA006B399B /* Login.swift in Sources */,
 				8DB35BE12C3660BA006B399B /* BookingUIApp.swift in Sources */,
+				8D07CA152C424CCD00F5C81D /* TicketView.swift in Sources */,
 				8D07CA0E2C420ACB00F5C81D /* HeadingStyle.swift in Sources */,
 				8D07CA002C3D0B2500F5C81D /* Background.swift in Sources */,
 			);
