@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D07CA002C3D0B2500F5C81D /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07C9FF2C3D0B2500F5C81D /* Background.swift */; };
+		8D07CA062C3D550D00F5C81D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA052C3D550D00F5C81D /* Constants.swift */; };
+		8D07CA0E2C420ACB00F5C81D /* HeadingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA0D2C420ACB00F5C81D /* HeadingStyle.swift */; };
+		8D07CA102C420EBE00F5C81D /* ButtonTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA0F2C420EBE00F5C81D /* ButtonTitle.swift */; };
+		8D07CA122C42113400F5C81D /* DashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D07CA112C42113400F5C81D /* DashBoard.swift */; };
 		8DB35BE12C3660BA006B399B /* BookingUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB35BE02C3660BA006B399B /* BookingUIApp.swift */; };
-		8DB35BE32C3660BA006B399B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB35BE22C3660BA006B399B /* ContentView.swift */; };
+		8DB35BE32C3660BA006B399B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB35BE22C3660BA006B399B /* Login.swift */; };
 		8DB35BE52C3660BB006B399B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB35BE42C3660BB006B399B /* Assets.xcassets */; };
 		8DB35BE82C3660BB006B399B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DB35BE72C3660BB006B399B /* Preview Assets.xcassets */; };
+		8DB35BEF2C366378006B399B /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB35BEE2C366378006B399B /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D07C9FF2C3D0B2500F5C81D /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		8D07CA052C3D550D00F5C81D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8D07CA0D2C420ACB00F5C81D /* HeadingStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingStyle.swift; sourceTree = "<group>"; };
+		8D07CA0F2C420EBE00F5C81D /* ButtonTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTitle.swift; sourceTree = "<group>"; };
+		8D07CA112C42113400F5C81D /* DashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoard.swift; sourceTree = "<group>"; };
 		8DB35BDD2C3660BA006B399B /* BookingUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB35BE02C3660BA006B399B /* BookingUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingUIApp.swift; sourceTree = "<group>"; };
-		8DB35BE22C3660BA006B399B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DB35BE22C3660BA006B399B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		8DB35BE42C3660BB006B399B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DB35BE72C3660BB006B399B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DB35BEE2C366378006B399B /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D07C9FE2C3D0B0D00F5C81D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8D07C9FF2C3D0B2500F5C81D /* Background.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8D07CA012C3D0D0300F5C81D /* DashboardCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DashboardCells;
+			sourceTree = "<group>";
+		};
+		8D07CA022C3D54C600F5C81D /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8D07CA052C3D550D00F5C81D /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8D07CA0C2C420A3400F5C81D /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				8D07CA0D2C420ACB00F5C81D /* HeadingStyle.swift */,
+				8D07CA0F2C420EBE00F5C81D /* ButtonTitle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		8DB35BD42C3660B9006B399B = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +95,14 @@
 		8DB35BDF2C3660BA006B399B /* BookingUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D07CA0C2C420A3400F5C81D /* Styles */,
+				8D07CA022C3D54C600F5C81D /* Constants */,
+				8D07C9FE2C3D0B0D00F5C81D /* Utilities */,
 				8DB35BE02C3660BA006B399B /* BookingUIApp.swift */,
-				8DB35BE22C3660BA006B399B /* ContentView.swift */,
+				8DB35BEE2C366378006B399B /* SplashScreen.swift */,
+				8DB35BE22C3660BA006B399B /* Login.swift */,
+				8D07CA112C42113400F5C81D /* DashBoard.swift */,
+				8D07CA012C3D0D0300F5C81D /* DashboardCells */,
 				8DB35BE42C3660BB006B399B /* Assets.xcassets */,
 				8DB35BE62C3660BB006B399B /* Preview Content */,
 			);
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB35BE32C3660BA006B399B /* ContentView.swift in Sources */,
+				8D07CA062C3D550D00F5C81D /* Constants.swift in Sources */,
+				8D07CA102C420EBE00F5C81D /* ButtonTitle.swift in Sources */,
+				8D07CA122C42113400F5C81D /* DashBoard.swift in Sources */,
+				8DB35BEF2C366378006B399B /* SplashScreen.swift in Sources */,
+				8DB35BE32C3660BA006B399B /* Login.swift in Sources */,
 				8DB35BE12C3660BA006B399B /* BookingUIApp.swift in Sources */,
+				8D07CA0E2C420ACB00F5C81D /* HeadingStyle.swift in Sources */,
+				8D07CA002C3D0B2500F5C81D /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
